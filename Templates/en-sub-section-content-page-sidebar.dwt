@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Language" content="en-CA">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="metaInformation" -->
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!-- TemplateEndEditable -->
+<meta name="author" content="">
+<meta name="copyright" content="&copy; University of Ottawa">
+
+<?php include("http://web5.uottawa.ca/assets-templates/inc/head.html"); ?>
+
+<!-- theme -->
+<link type="text/css" rel="stylesheet" media="screen" href="http://web5.uottawa.ca/assets-templates/themes/01/main.css">
+<!-- site-specific style sheet -->
+<link type="text/css" rel="stylesheet" media="screen" href="/assets/css/main.css">
+
+<!-- include page tools -->
+<script type="text/javascript" src="http://web5.uottawa.ca/assets-templates/js/print.js"></script>
+<script type="text/javascript" src="http://web5.uottawa.ca/assets-templates/js/send-to-friend.js"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- page variables -->
+<script type="text/javascript">
+<!--
+var expandNavSection = "";
+-->
+</script><!-- /page variables -->
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="en">
+
+<div id="main-container" class="content-page sub-section has-sidebar"><!-- TemplateBeginEditable name="pageLinks" -->
+<ul id="page-links">
+	<li><a id="skip-to-content" href="#main-content">Skip to content</a></li>
+	<li><a id="skip-to-localnav" href="#local-nav">Skip to links</a></li>
+	<li><a id="ch-lang-url" href="#" rel="alternate" lang="fr" hreflang="fr">Français</a></li>
+	<li><a id="section-home" href="#">Return to the home page</a></li>
+</ul>
+<!-- TemplateEndEditable -->
+	<!-- /#page-links -->
+
+<?php include("http://web5.uottawa.ca/assets-templates/inc/banner-en.html"); ?>
+
+<div id="section-container">
+
+
+<!-- TemplateBeginEditable name="sectionHeader" -->
+<?php virtual("/assets/inc/section-header-en.html"); ?>
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="subSectionHeader" -->
+<div id="sub-section-header">
+	<div id="sub-section-title">Sub Section Title</div>
+</div>
+<!-- TemplateEndEditable -->
+<div id="page-tools">
+<div id="quickpicks">
+<ul>
+	<?php virtual("/assets/inc/quickpicks-en.html"); ?>
+	<?php include("http://web5.uottawa.ca/assets-templates/inc/quickpicks-en.html"); ?>
+</ul>
+</div><!-- /#quickpicks -->
+</div>
+<!-- /#page-tools -->
+
+<div id="section-details">
+	<!-- TemplateBeginEditable name="Navigation" -->
+	<?php virtual("/assets/inc/nav-en.html"); ?>
+	<?php virtual("/assets/inc/contact-en.html"); ?>
+	<!-- TemplateEndEditable -->
+</div>
+
+<div id="main-content">
+	<!-- TemplateBeginEditable name="mainContent" -->
+	mainContent
+	<!-- TemplateEndEditable -->
+</div>
+<!-- /#main-content -->
+
+<div id="sidebar" class="secondary">
+<!-- TemplateBeginEditable name="sideBar" -->
+<?php virtual("/assets/inc/sidebar-en.html"); ?>
+<!-- TemplateEndEditable -->
+</div>
+<!-- /#sidebar -->
+</div>
+<!-- /#section-container -->
+
+<?php include("http://web5.uottawa.ca/assets-templates/inc/footer-en.html"); ?>
+<?php include("http://web5.uottawa.ca/assets-templates/inc/footer-contact-default-en.html"); ?>
+
+<div id="last-updated">
+Last updated: 
+<?php echo date ("Y.m.d", getlastmod()) ?>
+
+</div><!-- /#last-updated -->
+
+</div><!-- /#main-container -->
+
+<?php virtual("/assets/inc/beacons-en.html"); ?>
+
+</body>
+</html>

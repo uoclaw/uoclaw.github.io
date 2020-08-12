@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Language" content="fr-CA">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="metaInformation" -->
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!-- TemplateEndEditable -->
+
+<meta name="author" content="">
+<meta name="copyright" content="&copy; University of Ottawa">
+
+<?php include("http://web5.uottawa.ca/assets-templates/inc/head.html"); ?>
+
+<!-- theme -->
+<link type="text/css" rel="stylesheet" media="screen" href="http://web5.uottawa.ca/assets-templates/themes/08/main.css">
+
+<!-- site-specific style sheet -->
+<link type="text/css" rel="stylesheet" media="screen" href="/assets/css/section-header-es.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/assets/css/main.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/assets/css/home-page.css">
+
+<!-- include page tools -->
+<script type="text/javascript" src="http://web5.uottawa.ca/assets-templates/js/print.js"></script>
+<script type="text/javascript" src="http://web5.uottawa.ca/assets-templates/js/send-to-friend.js"></script>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- page variables -->
+<script type="text/javascript">
+<!--
+
+-->
+</script><!-- /page variables -->
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="fr">
+
+<div id="main-container" class="section-home landing-page has-sidebar">
+	<!-- TemplateBeginEditable name="pageLinks" -->
+	<ul id="page-links">
+		<li><a id="skip-to-content" href="#main-content">Aller au contenu</a></li>
+		<li><a id="skip-to-localnav" href="#local-nav">Aller au menu</a></li>
+		<li><a id="ch-lang-url" href="#" rel="alternate" lang="en" hreflang="en">English</a></li>
+	</ul>
+	<!-- /#page-links -->
+	<!-- TemplateEndEditable -->
+	<?php include("http://web5.uottawa.ca/assets-templates/inc/banner-fr.html"); ?>
+	
+	<div id="section-container">
+		
+	<div id="section-header">
+		<!-- TemplateBeginEditable name="sectionHeader" -->
+		<h1 id="section-title"><span>Section Header</span></h1>
+		<!-- TemplateEndEditable -->
+	</div>
+	<!-- /#section-header -->
+		
+	<div id="page-tools">
+		
+	<div id="quickpicks">
+	<ul>
+		<?php virtual("/assets/inc/quickpicks-fr.html"); ?>
+		<?php include("http://web5.uottawa.ca/assets-templates/inc/quickpicks-fr.html"); ?>
+	</ul>
+	</div><!-- /#quickpicks -->
+	</div>
+	<!-- /#page-tools -->
+		
+		
+	<div id="section-details">
+		<!-- TemplateBeginEditable name="Navigation" -->
+		<?php virtual("/assets/inc/nav-es.html"); ?>
+		<?php virtual("/assets/inc/contact-es.html"); ?>
+		<!-- TemplateEndEditable -->
+	</div>
+	
+	<div id="main-content">
+<?php 
+echo "<h4 align=right>";
+echo "<a href=", str_replace("/esp/","/eng/",$_SERVER["PHP_SELF"]),">English</a> " ;
+echo "<a href=", str_replace("/esp/","/fra/",$_SERVER["PHP_SELF"]),">Français</a> " ;
+echo "<a href=", str_replace("/esp/","/rus/",$_SERVER["PHP_SELF"]),">Русский</a> " ;
+echo "<a href=", str_replace("/esp/","/chi/",$_SERVER["PHP_SELF"]),">中文</a> " ;
+echo "<a href=", str_replace("/esp/","/ara/",$_SERVER["PHP_SELF"]),">عربي</a> " ;
+echo "</h4><hr>";
+?>
+		<!-- TemplateBeginEditable name="mainContent" -->
+		mainContent
+		<!-- TemplateEndEditable -->
+	</div>
+	<!-- /#main-content -->
+		
+	<div id="sidebar" class="secondary">
+		<!-- TemplateBeginEditable name="sideBar" -->
+		sideBar
+		<!-- TemplateEndEditable -->
+	</div>
+	<!-- /#sidebar -->
+		
+	</div><!-- /#section-container -->
+	
+	<?php include("http://web5.uottawa.ca/assets-templates/inc/footer-fr.html"); ?>
+	<?php include("http://web5.uottawa.ca/assets-templates/inc/footer-contact-default-fr.html"); ?>
+	
+	<div id="last-updated">
+	Last updated: 
+<?php echo date ("Y.m.d", getlastmod()) ?>
+
+	</div><!-- /#last-updated -->
+	
+</div><!-- /#main-container -->
+
+<?php virtual("/assets/inc/beacons-fr.html"); ?>
+
+</body>
+</html>
