@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Section Header */
+#section-header { 
+ background-image: url(../img/section-header-link-ar.jpg);
+}
+.section-home #section-header {
+	background-image: url(../img/section-header-ar.jpg);
+}
+#section-title { left:18px; top: 41px; width: 219px; height: 28px; }

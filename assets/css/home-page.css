@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Image replacement */
+
+#heading-news {
+	background-image: url();
+}
+
+#map {
+	background-image: url(../../images/fra/monde-home.png);
+	height:369px;
+	width:550px;
+	}
+
+#links { }
+
+#links a, i {
+	top:700px;
+	left:600px;
+	height:50px;
+	width:100px;
+
+	visibility:none;
+	text-decoration:none;
+	display:block;
+	}
+
+a#amerique-du-nord {top:700px; left:269px; height:53px; width:83px;}
+a#antilles {top:350px; left:400px;}
+a#amerique-centrale {top:350px; left:350px;}
+a#amerique-du-sud {top:400px; left:350px;}
+a#europe {}
+a#afrique {}
+a#moyen-orient {}
+a#asie {}
+a#asie-du-sud-est {}
+a#oceanie {}
+
+a#amerique-du-nord:hover {border:none;}

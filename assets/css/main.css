@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Sub-Section */
+.sub-section #sub-section-header {
+	background-image: url();
+}
+
+/* Image below the Local Navigation */
+#section-photo { background-image: url(); height: 109px; }
+
+#p-indent {text-indent: 30pt;}
+#counter{
+
+
+font-weight:bold;
+}
